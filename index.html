@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bible Text Generation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/onnxjs/dist/onnx.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <h1>Bible Text Generation</h1>
+    <p>This application is an AI-powered text generator that rewrites the bible.</p>
+    <div class="input-group">
+        <input id="lineInput" type="text" placeholder="Number of Verces">
+    </div>
+    <input type="text" id="inputText" placeholder="Enter initial text">
+    <button id="generateButton">Generate</button>
+    <div id="outputText"></div>
+</body>
+</html>
+

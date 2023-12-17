@@ -57,7 +57,16 @@ let session;
 // Load the ONNX model using ONNX Runtime Web
 async function loadModel() {
     console.log('Model loading');
-    session = await ort.InferenceSession.create("./model.onnx", { executionProviders: ['wasm']  });
+
+    try {
+        session = await ort.InferenceSession.create("./model.onnx", { executionProviders: ['wasm']  });
+      } catch (error) {
+        console.error(error);
+        // Expected output: ReferenceError: nonExistentFunction is not defined
+        // (Note: the exact output may be browser-dependent)
+      }
+
+    
     console.log('Model loaded');
 }
 

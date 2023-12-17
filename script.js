@@ -59,7 +59,7 @@ async function loadModel() {
     console.log('Model loading');
 
     try {
-        session = await ort.InferenceSession.create("./model.onnx", { executionProviders: ['wasm']  });
+        session = await ort.InferenceSession.create("./model.onnx", { executionProviders: ['webgl']  });
       } catch (error) {
         console.error(error);
         // Expected output: ReferenceError: nonExistentFunction is not defined

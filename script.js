@@ -57,7 +57,7 @@ let session;
 // Load the ONNX model using ONNX Runtime Web
 async function loadModel() {
     console.log('Model loading');
-    session = await ort.InferenceSession.create("./model.onnx", { executionProviders: ['wasm','cpu','cuda','dnnl','openvino','directml','webgl']  });
+    session = await ort.InferenceSession.create("./model.onnx", { executionProviders: ['wasm','cpu']  });
     console.log('Model loaded');
 }
 

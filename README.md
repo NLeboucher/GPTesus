@@ -6,7 +6,7 @@ It's based on the project from nanoGPT project from the saint Karparthy (https:/
 
 ## By the website 
 You can go on the holy website, insert how many verses you want and the begining of the first verse. 
-
+![alt text](assets/app.png)
 ## In local
 You can also clone the code : 
 `$ git clone https://github.com/NLeboucher/GPTesus.git`

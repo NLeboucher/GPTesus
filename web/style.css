@@ -1,0 +1,75 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.bible {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    flex-grow: 1;
+    margin-right: 10px; /* Spacing between the input group and the button */
+}
+
+#lineInput {
+    width: 80px;
+}
+
+#inputText{
+    width: 80%;
+}
+
+.book-name {
+    font-size: 24px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap; /* Prevents the button from wrapping */
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* This will make the input fields take equal space and fill the line */
+.input-group input {
+    flex: 1;
+    margin-right: 10px; /* Spacing between the input fields */
+}
+
+.chapter .verse {
+    margin-bottom: 10px;
+}
+
+.verse-number {
+    font-weight: bold;
+    margin-right: 5px;
+}

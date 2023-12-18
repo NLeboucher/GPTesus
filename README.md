@@ -1,4 +1,4 @@
-This is GPTesus, a generator of holy verse. It was trained on the holy Bible to share more of its Truth. 
+This is GPTesus, a generator of holy verses. It was trained on the holy Bible to share more of its Truth. 
 
 It's based on the project from nanoGPT project from the saint Karparthy (https://github.com/karpathy/nanoGPT)
 
